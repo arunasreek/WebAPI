@@ -1,0 +1,8 @@
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\bin\Debug\Esmart.Application.ServiceContract.dll
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\bin\Debug\Esmart.Application.ServiceContract.pdb
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\bin\Debug\Esmart.Application.Models.dll
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\bin\Debug\Esmart.Application.Models.pdb
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\obj\Debug\Esmart.Application.ServiceContract.csprojAssemblyReference.cache
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\obj\Debug\Esmart.Application.ServiceContract.csproj.CopyComplete
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\obj\Debug\Esmart.Application.ServiceContract.dll
+F:\WebAPI\Esmart\Esmart.Application.ServiceContract\obj\Debug\Esmart.Application.ServiceContract.pdb

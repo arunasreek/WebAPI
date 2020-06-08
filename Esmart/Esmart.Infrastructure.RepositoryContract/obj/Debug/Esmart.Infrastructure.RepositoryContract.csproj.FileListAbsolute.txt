@@ -1,0 +1,12 @@
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.RepositoryContract.dll
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.RepositoryContract.pdb
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Application.Models.dll
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.Data.dll
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.Models.dll
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Application.Models.pdb
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.Data.pdb
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\bin\Debug\Esmart.Infrastructure.Models.pdb
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\obj\Debug\Esmart.Infrastructure.RepositoryContract.csprojAssemblyReference.cache
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\obj\Debug\Esmart.Infrastructure.RepositoryContract.csproj.CopyComplete
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\obj\Debug\Esmart.Infrastructure.RepositoryContract.dll
+F:\WebAPI\Esmart\Esmart.Infrastructure.RepositoryContract\obj\Debug\Esmart.Infrastructure.RepositoryContract.pdb
