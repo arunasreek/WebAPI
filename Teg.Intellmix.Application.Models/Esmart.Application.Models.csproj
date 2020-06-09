@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A271B361-F674-4394-AE09-AD9A5B5E7388}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Esmart.Application.Models</RootNamespace>
+    <AssemblyName>Esmart.Application.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.9.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ApplicationResultModel.cs" />
+    <Compile Include="Models\ApprovalsApplicationModel.cs" />
+    <Compile Include="Models\BrandHierarchyApplicationModel.cs" />
+    <Compile Include="Models\BrandLevelApplicationModel.cs" />
+    <Compile Include="Models\AspNetRolesApplicationModel.cs" />
+    <Compile Include="Models\AspNetUserRoleApplicationModel.cs" />
+    <Compile Include="Models\DataPreparationApplicationModel.cs" />
+    <Compile Include="Models\DataTypeValidationLogApplicationModel.cs" />
+    <Compile Include="Models\DueDateApplicationModel.cs" />
+    <Compile Include="Models\ETLCSVFileDetailsApplicationModel.cs" />
+    <Compile Include="Models\FileApprovalApplicationModel.cs" />
+    <Compile Include="Models\FileApprovalStatusApplicationModel.cs" />
+    <Compile Include="Models\FileDueDateApplicationModel.cs" />
+    <Compile Include="Models\OrganisationFileLogApplicationModel.cs" />
+    <Compile Include="Models\EngineColumMappingApplicationModel.cs" />
+    <Compile Include="Models\EventsApplicationModel.cs" />
+    <Compile Include="Models\FileProcessingStateApplicationModel.cs" />
+    <Compile Include="Models\FinancialsApplicationModel.cs" />
+    <Compile Include="Models\OrganisationUserBUFileAccessApplicationModel.cs" />
+    <Compile Include="Models\PeriodApplicationModel.cs" />
+    <Compile Include="Models\ProcessComponentApplicationModel.cs" />
+    <Compile Include="Models\ProcessOwnerApplicationModel.cs" />
+    <Compile Include="Models\ProcessStateMasterApplicationModel.cs" />
+    <Compile Include="Models\ProcessTypeStateApplicationModel.cs" />
+    <Compile Include="Models\ProcessUpdateApplicationModel.cs" />
+    <Compile Include="Models\RegisterBindingApplicationModel.cs" />
+    <Compile Include="Models\RemarksApplicationModel.cs" />
+    <Compile Include="Models\RolePrevilegeApplicationModel.cs" />
+    <Compile Include="Models\KPIApplicationModel.cs" />
+    <Compile Include="Models\MediaChannelApplicationModel.cs" />
+    <Compile Include="Models\ChannelLevelApplicationModel.cs" />
+    <Compile Include="Models\CycleApplicationModel.cs" />
+    <Compile Include="Models\DashboardApplicationModel.cs" />
+    <Compile Include="Models\DashboardKPIApplicationModel.cs" />
+    <Compile Include="Models\DataFrequencyApplicationModel.cs" />
+    <Compile Include="Models\FileTypeApplicationModel.cs" />
+    <Compile Include="Models\LocationApplicationModel.cs" />
+    <Compile Include="Models\NotificationApplicationModel.cs" />
+    <Compile Include="Models\OrganisationApplicationModel.cs" />
+    <Compile Include="Models\OrganisationBusinessUnitApplicationModel.cs" />
+    <Compile Include="Models\OrganisationDetailApplicationModel.cs" />
+    <Compile Include="Models\ErrorWarningsApplicationModel.cs" />
+    <Compile Include="Models\SendNotificationApplicationModel.cs" />
+    <Compile Include="Models\ShipmentsApplicationModel.cs" />
+    <Compile Include="Models\SpendApplicationModel.cs" />
+    <Compile Include="Models\TopFileRecordsApplicationModel.cs" />
+    <Compile Include="Models\UploadedFileDetailApplicationModel.cs" />
+    <Compile Include="Models\UploadedFileRevisionApplicationModel.cs" />
+    <Compile Include="Models\UserColumMappingApplicationModel.cs" />
+    <Compile Include="Models\UserDashboardAccessApplicationModel.cs" />
+    <Compile Include="Models\UserDashboardDetailApplicationModel.cs" />
+    <Compile Include="Models\UserDetailsApplicationModel.cs" />
+    <Compile Include="Models\OrganisationUserListModel.cs" />
+    <Compile Include="Models\PagingParameterApplicationModel.cs" />
+    <Compile Include="Models\PrevilegeApplicationModel.cs" />
+    <Compile Include="Models\RolesApplicationModel.cs" />
+    <Compile Include="Models\StatusApplicationModel.cs" />
+    <Compile Include="Models\SubscriptionApplicationModel.cs" />
+    <Compile Include="Models\UserApplicationModel.cs" />
+    <Compile Include="Models\VolumeApplicationModel.cs" />
+    <Compile Include="Profiles\ApplicationMappingProfile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

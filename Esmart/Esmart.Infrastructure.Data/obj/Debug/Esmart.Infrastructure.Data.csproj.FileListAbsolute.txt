@@ -1,5 +1,0 @@
-F:\WebAPI\Esmart\Esmart.Infrastructure.Data\bin\Debug\Esmart.Infrastructure.Data.dll
-F:\WebAPI\Esmart\Esmart.Infrastructure.Data\bin\Debug\Esmart.Infrastructure.Data.pdb
-F:\WebAPI\Esmart\Esmart.Infrastructure.Data\obj\Debug\Esmart.Infrastructure.Data.csprojAssemblyReference.cache
-F:\WebAPI\Esmart\Esmart.Infrastructure.Data\obj\Debug\Esmart.Infrastructure.Data.dll
-F:\WebAPI\Esmart\Esmart.Infrastructure.Data\obj\Debug\Esmart.Infrastructure.Data.pdb

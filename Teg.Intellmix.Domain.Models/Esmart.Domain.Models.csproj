@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E86B444-6492-4643-9B5C-013166D55DF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Esmart.Domain.Models</RootNamespace>
+    <AssemblyName>Esmart.Domain.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.9.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aggregates\AspNetUserRoleAggregate.cs" />
+    <Compile Include="Aggregates\BusinessUnitAggregate.cs" />
+    <Compile Include="Aggregates\ETLFileGroupAggregate.cs" />
+    <Compile Include="Aggregates\ETLFinalDetailsAggregate.cs" />
+    <Compile Include="Aggregates\FileDueDateAggregate.cs" />
+    <Compile Include="Aggregates\FileGroupAggregate.cs" />
+    <Compile Include="Aggregates\FileLogAggregate.cs" />
+    <Compile Include="Aggregates\FileProcessStateLogAggregate.cs" />
+    <Compile Include="Aggregates\OrganisationUserPrivilegeAggregate.cs" />
+    <Compile Include="Aggregates\ProcessTypeStateTempAggregate.cs" />
+    <Compile Include="Aggregates\ProcessTypeStateAggregate.cs" />
+    <Compile Include="Aggregates\DataTypeValidationLogAggregate.cs" />
+    <Compile Include="Aggregates\ErrorWarningsDetailsAggregate.cs" />
+    <Compile Include="Aggregates\FileApprovalStatusAggregate.cs" />
+    <Compile Include="Aggregates\OrganisationAggregate.cs" />
+    <Compile Include="Aggregates\OrganisationFileTypeAggregate.cs" />
+    <Compile Include="Aggregates\SendNotificationAggregate.cs" />
+    <Compile Include="Aggregates\UploadedFileDetailAggregate.cs" />
+    <Compile Include="Aggregates\UserColumMappingAggregate.cs" />
+    <Compile Include="Aggregates\UserNotificationAggregate.cs" />
+    <Compile Include="Aggregates\UserDashboardDetailDomainAggregate.cs" />
+    <Compile Include="Aggregates\UserDetailsAggregate.cs" />
+    <Compile Include="Models\AspNetUserRoleDomainModel.cs" />
+    <Compile Include="Aggregates\RoleAggregate.cs" />
+    <Compile Include="Models\BusinessUnitDomainModel.cs" />
+    <Compile Include="Models\DataPreparationDomainModel.cs" />
+    <Compile Include="Models\ETLFileGroupDomainModel.cs" />
+    <Compile Include="Models\ETLFinalDetailsDomainModel.cs" />
+    <Compile Include="Models\FileDueDateDomainModel.cs" />
+    <Compile Include="Models\FileLogDomainModel.cs" />
+    <Compile Include="Models\OrganisationUserPrivilegeDomainModel.cs" />
+    <Compile Include="Models\ProcessTypeStateTempDomainModel.cs" />
+    <Compile Include="Models\ProcessTypeStateDomainModel.cs" />
+    <Compile Include="Models\DataTypeValidationLogDomainModel.cs" />
+    <Compile Include="Models\ErrorWarningsDetailsDomainModel.cs" />
+    <Compile Include="Models\FileApprovalDomainModel.cs" />
+    <Compile Include="Models\FileApprovalStatusDomainModel.cs" />
+    <Compile Include="Models\OrganisationDomainModel.cs" />
+    <Compile Include="Models\DomainResultModel.cs" />
+    <Compile Include="Models\OrganisationFileTypeDomainModel.cs" />
+    <Compile Include="Models\ReportsDomainModel.cs" />
+    <Compile Include="Models\SendNotificationDomainModel.cs" />
+    <Compile Include="Models\UploadedFileDetailDomainModel.cs" />
+    <Compile Include="Models\UserColumMappingDomainModel.cs" />
+    <Compile Include="Models\UserDashboardDetailDomainModel.cs" />
+    <Compile Include="Models\UserDetailsDomainModel.cs" />
+    <Compile Include="Models\RoleDetailsDomainModel.cs" />
+    <Compile Include="Models\UserDomainModel.cs" />
+    <Compile Include="Models\UserNotificationDomainModel.cs" />
+    <Compile Include="Profiles\DomainMappingProfile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj">
+      <Project>{A271B361-F674-4394-AE09-AD9A5B5E7388}</Project>
+      <Name>Esmart.Application.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
+      <Project>{35428DF1-26FF-4550-AF3A-487908C3D619}</Project>
+      <Name>Esmart.Infrastructure.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

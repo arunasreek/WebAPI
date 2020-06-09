@@ -1,0 +1,84 @@
+FiscalYear,FiscalQuarter,Brand,Market,ConsumerBehavior,Channel,SubChannel,Campaign,EventName,EventKey,ReportedSpend,ModeledSpend
+FY19,Q1,Q Lipsticks,GM,Watch,Linear TV,TV,Soldierina11,PS GM TV Soldierina,TPSGSO1,288895.2726,198800
+FY19,Q1,Q Lipsticks,GM,Watch,Linear TV,TV,Cheerball12,PS GM TV Cheerball,TPSGCH2,512223.6017,463800
+FY19,Q2,Q Lipsticks,GM,Watch,Linear TV,TV,Soldierina13,PS GM TV Soldierina,TPSGSO3,752190.6342,381100
+FY19,Q2,Q Lipsticks,GM,Watch,Linear TV,TV,Cheerball14,PS GM TV Cheerball,TPSGCH4,368826.7657,367000
+FY19,Q1,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Soldierina15,PS His TV Soldierina,TPHISO5,106809.7235,85400
+FY19,Q1,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball16,PS His TV Cheerball,TPHICH6,235596.1024,176100
+FY19,Q2,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball17,PS His TV Cheerball,TPHICH7,506987.6798,295300
+FY19,Q2,Q Lipsticks,GM,Watch,Linear TV,Do not use,EntreAmigas18,PS His TV Cheerball,TPHICH7,133957.7964,72400
+FY19,Q1,Q Lipsticks,GM,Watch,Linear TV,Do not use,EntreAmigas19,PS His TV Cheerball,TPHICH7,29120.1593,23100
+FY19,Q1,Q Lipsticks,GM,Watch,Linear TV,Do not use,PINFY18JASPs-EntreAmigas1HispanicPartnership10,PS His TV Cheerball,TPHICH7,45478.8426,5914
+FY19,Q1,Q Lipsticks,GM,Watch,Linear TV,Do not use,PINFY18JASPs-EntreAmigas1HispanicPartnership-DSP11,PS His TV Cheerball,TPHICH7,123,6048
+FY19,Q1,Q Lipsticks,GM,Read,Digital,Display,PINFY18Ps-DSP12,PS Base Banners,OPS_BB12,645424.8984,390938
+FY19,Q2,Q Lipsticks,GM,Read,Digital,Display,PINFY18Ps13,PS Base Banners,OPS_BB13,479709.4344,394856
+FY19,Q2,Q Lipsticks,GM,Read,Digital,Display,PINFY18Ps-Hispanic-DSP14,PS Online H,OPS_H114,80480.0505,69453
+FY18,Q4,Q Lipsticks,GM,Read,Digital,Display,PSFFY17AMJPs15,PS Base Banners,OPS_BB15,145252.9092,93000
+FY18,Q4,Q Lipsticks,GM,Read,Digital,Display,PSFFY17AMJPs-DSP16,PS Base Banners,OPS_BB16,1081772.366,657477
+FY18,Q4,Q Lipsticks,GM,Share,Digital,Social,PSFFY17AMJPs-Social17,PS Paid Social,OPS_PS17,35954.3759,28992
+FY18,Q4,Q Lipsticks,GM,Watch,Digital,Video,PINFY17AMJPsHispanic-DSPVideo18,PS Online H Video,OPS_H318,81789.4631,45702
+FY18,Q4,Q Lipsticks,GM,Watch,Digital,Video,PINFY17AMJPsVersatility-Video19,PS Versatility Videos Hispanic,OPS_VERH19,103407.1722,92202
+FY18,Q3,Q Lipsticks,GM,Read,Digital,Display,PINFY17JFMPs20,PS Base Banners,OPS_BB20,120421.6432,82000
+FY18,Q3,Q Lipsticks,GM,Read,Digital,Display,PINFY17JFMPs-DSP21,PS Base Banners,OPS_BB21,762125.1664,399800
+FY18,Q3,Q Lipsticks,GM,Watch,Digital,Video,PINFY17JFMPs-DSPVideo22,PS Non Streaming Video,OPS_NSV22,53063.6477,49036
+FY18,Q3,Q Lipsticks,GM,Share,Digital,Social,PINFY17JFMPs-Social23,PS Paid Social,OPS_PS23,278874.4889,72374
+FY18,Q3,Q Lipsticks,GM,Watch,Digital,Video,PINFY17JFMPsHispanic-DSPVideo24,PS Online H Video,OPS_H324,44835.0208,41547
+FY18,Q3,Q Lipsticks,GM,Watch,Digital,Video,PSFFY17JFMPsVersatility-Video25,PS Versatility Videos Hispanic,OPS_VERH25,67876.249,2652
+FY18,Q3,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)26,PS Search Unbranded Impression,LPS_03I926,859950.1977,419104
+FY18,Q4,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)27,PS Search Unbranded Impression,LPS_03I927,831023.6214,403188
+FY19,Q1,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)28,PS Search Unbranded Impression,LPS_03I928,576567.8397,248601
+FY19,Q2,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)29,PS Search Unbranded Impression,LPS_03I929,524538.6232,266002
+FY18,Q3,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)30,PS Search Branded Impression,LPS_02I930,567558.1849,357014
+FY18,Q4,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)31,PS Search Branded Impression,LPS_02I931,476627.1999,343457
+FY19,Q1,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)32,PS Search Branded Impression,LPS_02I932,535963.6619,211771
+FY19,Q2,Q Lipsticks,GM,Seek,Digital,Paid Search,PaidSearch1(xclCriteo)33,PS Search Branded Impression,LPS_02I933,475626.3968,226594
+FY18,Q3,Q Lipsticks,GM,Watch,Linear TV,TV,GMSoldierina134,PS GM TV Soldierina,TPSGSO34,783550.3161,631500
+FY18,Q4,Q Lipsticks,GM,Watch,Linear TV,TV,GMSoldierina135,PS GM TV Soldierina,TPSGSO35,1863609.926,948100
+FY18,Q3,Q Lipsticks,GM,Watch,Linear TV,TV,GMCheerball136,PS GM TV Cheerball,TPSGCH36,817183.9034,457000
+FY18,Q4,Q Lipsticks,GM,Watch,Linear TV,TV,GMCheerball137,PS GM TV Cheerball,TPSGCH37,469846.9379,311600
+FY18,Q3,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,HISPCheerball138,PS His TV Cheerball,TPHICH38,269616.6277,202000
+FY18,Q4,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,HISPCheerball139,PS His TV Cheerball,TPHICH39,546079.6866,401300
+FY18,Q3,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,HISPSoldierina140,PS His TV Soldierina,TPHISO40,227824.2445,127300
+FY18,Q4,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,HISPSoldierina141,PS His TV Soldierina,TPHISO41,350815.4356,200500
+FY19,Q2,Q Lipsticks,GM,Watch,Linear TV,Do not use,Search1Solcriteo42,PS His TV Soldierina,NULL42,13786.0029,7023
+FY18,Q1,Q Lipsticks,GM,Watch,Linear TV,TV,GMCheerball143,PS GM TV Cheerball,TPSGCH43,-323243.4298,200500
+FY18,Q2,Q Lipsticks,GM,Watch,Linear TV,TV,GMCheerball144,PS GM TV Cheerball,TPSGCH44,-660272.8625,200500
+FY18,Q1,Q Lipsticks,GM,Watch,Linear TV,TV,GMSoldierina145,PS GM TV Soldierina,TPSGSO45,1550470.133,200500
+FY18,Q2,Q Lipsticks,GM,Watch,Linear TV,TV,GMSoldierina146,PS GM TV Soldierina,TPSGSO46,1617481.96,200500
+FY17,Q3,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball147,PS His TV Cheerball,TPHICH47,1684493.787,200500
+FY17,Q4,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball148,PS His TV Cheerball,TPHICH48,1751505.614,655567
+FY18,Q1,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball149,PS His TV Cheerball,TPHICH49,1818517.441,375000
+FY18,Q2,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Cheerball150,PS His TV Cheerball,TPHICH50,1885529.268,367400
+FY18,Q1,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Soldierina151,PS His TV Soldierina,TPHISO51,1952541.095,13
+FY18,Q2,Q Lipsticks,Hispanic,Watch,Linear TV,Hisp TV,Soldierina152,PS His TV Soldierina,TPHISO52,2019552.922,654987
+FY18,Q3,Stationary,GM,Read,Digital,Display,LCXFY17AMJClorox253,c Base Banners FY,OC2_0753,390491.6197,190671.4
+FY18,Q3,Stationary,GM,Read,Digital,Display,LCXFY17AMJClorox2-DSP54,c Base Banners FY,OC2_0754,401321.4734,279053
+FY18,Q3,Stationary,GM,Shop,Digital,eCom,LCXFY17AMJClorox2-eCommerce(WM)55,c E-Commerce Banners FY,OC2_0855,187237.5654,135814.6
+FY18,Q3,Stationary,GM,Share,Digital,Social,LCXFY17AMJClorox2-Social56,c Paid Social FY,OC2_1156,65676.0291,49987.6
+FY18,Q3,Stationary,GM,Watch,Linear TV,TV,StainedDummies157,c Stain Test Dummies,TC2_1357,957373.3388,563000
+FY18,Q3,Stationary,GM,Read,Print,Print,Now1YouSeeit58,c Now You See It,PC2_1358,1849070.649,676786.1333
+FY18,Q3,Stationary,GM,Seek,Digital,Paid Search,UnbrandedSearch159,c Unbranded Search imp,LC2_01I859,922254.4499,543053
+FY18,Q3,Stationary,GM,Seek,Digital,Paid Search,BrandedSearch160,c Branded Search imp,LC2_00I860,71225.8264,39843
+FY18,Q4,Stationary,GM,Read,Digital,Display,LCXFY17JFMClorox261,c Base Banners FY,OC2_0761,319518.2959,284105.9
+FY18,Q4,Stationary,GM,Read,Digital,Display,LCXFY17JFMClorox2-DSP62,c Base Banners FY,OC2_0762,268138.5054,197500.7
+FY18,Q4,Stationary,GM,Share,Digital,Social,LCXFY17JFMClorox2-Social63,c Paid Social FY,OC2_1163,57649.7136,110895.5
+FY18,Q4,Stationary,GM,Shop,Digital,eCom,LCXFY17JFMClorox2-eCommerce(WM)64,c E-Commerce Banners FY,OC2_0864,315821.901,223803
+FY18,Q4,Stationary,GM,Watch,Linear TV,TV,StainedDummies165,c Stain Test Dummies,TC2_1365,573994.0884,336710.5
+FY18,Q4,Stationary,GM,Read,Print,Print,Now1YouSeeit66,c Now You See It,PC2_1366,1066163.992,1004800
+FY18,Q4,Stationary,GM,Seek,Digital,Paid Search,UnbrandedSearch167,c Unbranded Search imp,LC2_01I867,1559484.799,840188
+FY18,Q4,Stationary,GM,Seek,Digital,Paid Search,BrandedSearch168,c Branded Search imp,LC2_00I868,120015.5176,80298
+FY19,Q1,Stationary,GM,Read,Digital,Display,LCXFY18Clorox2-DSP69,c Base Banners FY,OC2_0769,431582.0201,183271
+FY19,Q1,Stationary,GM,Read,Digital,Display,LCXFY18JASClorox270,c Base Banners FY,OC2_0770,86758.4213,26512
+FY19,Q1,Stationary,GM,Watch,Digital,Partnership Video,LCXFY18JASClorox2-Partnership71,c TV Extension Partnerships,OC2_1271,141663.3363,74952.4
+FY19,Q1,Stationary,GM,Share,Digital,Social,LCXFY18Clorox2-Social72,c Paid Social FY,OC2_1172,51894.4932,39000
+FY19,Q1,Stationary,GM,Shop,Digital,eCom,LCXFY18JASClorox2-eCommerce73,c E-Commerce Banners FY,OC2_0873,86835.2834,77956.8
+FY19,Q1,Stationary,GM,Seek,Digital,Paid Search,UnbrandedSearch174,c Unbranded Search imp,LC2_01I874,1027334.732,570838
+FY19,Q1,Stationary,GM,Seek,Digital,Paid Search,BrandedSearch175,c Branded Search imp,LC2_00I875,20132.0192,11373
+FY19,Q2,Stationary,GM,Read,Digital,Display,LCXFY18ONDClorox276,c Base Banners FY,OC2_0776,51002.5914,40000
+FY19,Q2,Stationary,GM,Read,Digital,Display,LCXFY18Clorox2-DSP77,c Base Banners FY,OC2_0777,591461.9171,319516.7
+FY19,Q2,Stationary,GM,Shop,Digital,eCom,LCXFY18ONDClorox2-Ecommerce78,c E-Commerce Banners FY,OC2_0878,162787.3979,96846.6
+FY19,Q2,Stationary,GM,Watch,Digital,Video,LCXFY18ONDClorox2-Video79,c Non-Streaming Video FY,OC2_0979,66822.7489,37500
+FY19,Q2,Stationary,GM,Watch,Digital,Video,LCXFY18Clorox2-DSPVideo80,c Non-Streaming Video FY,OC2_0980,156252.5384,103683.1
+FY19,Q2,Stationary,GM,Share,Digital,Social,LCXFY18Clorox2-SocialVideo81,c Paid Social FY,OC2_1181,271965.6404,146791.3
+FY19,Q2,Stationary,GM,Seek,Digital,Paid Search,UnbrandedSearch182,c Unbranded Search imp,LC2_01I882,983671.2595,496998
+FY19,Q2,Stationary,GM,Seek,Digital,Paid Search,BrandedSearch183,c Branded Search imp,LC2_00I883,41597.5249,22339

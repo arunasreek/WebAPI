@@ -1,5 +1,0 @@
-F:\WebAPI\Esmart\Esmart.Application.Models\bin\Debug\Esmart.Application.Models.dll
-F:\WebAPI\Esmart\Esmart.Application.Models\bin\Debug\Esmart.Application.Models.pdb
-F:\WebAPI\Esmart\Esmart.Application.Models\obj\Debug\Esmart.Application.Models.csprojAssemblyReference.cache
-F:\WebAPI\Esmart\Esmart.Application.Models\obj\Debug\Esmart.Application.Models.dll
-F:\WebAPI\Esmart\Esmart.Application.Models\obj\Debug\Esmart.Application.Models.pdb
