@@ -81,7 +81,6 @@ namespace Esmart.Application.WebApi.Providers
 			var properties = new AuthenticationProperties(new Dictionary<string, string>
 		    {
 			    { "email", user.UserName},
-				{ "roles", roles.ToString().Substring(1)},
 				{ "userId",user.Id}
 		    });
 
@@ -94,6 +93,7 @@ namespace Esmart.Application.WebApi.Providers
             }
 
 			// add OrganisationId to the claim
+
 
 			ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(userManager,
                OAuthDefaults.AuthenticationType);
