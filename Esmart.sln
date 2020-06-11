@@ -9,45 +9,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7A719E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A46A3BE9-54CD-457E-A41F-393B7052DBD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.WebApi", "Teg.Intellmix.Application.WebApi\Esmart.Application.WebApi.csproj", "{2A5B6B16-ED76-45E9-A689-AC7BAC237E57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.WebApi", "Esmart.Application.WebApi\Esmart.Application.WebApi.csproj", "{2A5B6B16-ED76-45E9-A689-AC7BAC237E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.ServiceContract", "Teg.Intellmix.Application.ServiceContract\Esmart.Application.ServiceContract.csproj", "{31795338-5256-4B8C-9D8B-9CD361810C0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.ServiceContract", "Esmart.Application.ServiceContract\Esmart.Application.ServiceContract.csproj", "{31795338-5256-4B8C-9D8B-9CD361810C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.Services", "Teg.Intellmix.Application.Services\Esmart.Application.Services.csproj", "{E11176D9-26A4-456C-A7C5-67E9C3749729}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.Services", "Esmart.Application.Services\Esmart.Application.Services.csproj", "{E11176D9-26A4-456C-A7C5-67E9C3749729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.ServiceContract", "Teg.Intellmix.Domain.ServiceContract\Esmart.Domain.ServiceContract.csproj", "{8CC573F2-1951-4AC7-A94A-6AAC929A7F05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.ServiceContract", "Esmart.Domain.ServiceContract\Esmart.Domain.ServiceContract.csproj", "{8CC573F2-1951-4AC7-A94A-6AAC929A7F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.Services", "Teg.Intellmix.Domain.Services\Esmart.Domain.Services.csproj", "{9E8542D5-1E58-47F8-85B8-0A6057A44EBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.Services", "Esmart.Domain.Services\Esmart.Domain.Services.csproj", "{9E8542D5-1E58-47F8-85B8-0A6057A44EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Logging", "Teg.Intellmix.Infrastructure.Logging\Esmart.Infrastructure.Logging.csproj", "{52D0BC5F-E90D-4E1F-935B-A12EF668D4CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Logging", "Esmart.Infrastructure.Logging\Esmart.Infrastructure.Logging.csproj", "{52D0BC5F-E90D-4E1F-935B-A12EF668D4CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Exceptions", "Teg.Intellmix.Infrastructure.Exceptions\Esmart.Infrastructure.Exceptions.csproj", "{1461BCC4-7B56-420D-A93E-6DF7D93BB364}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Exceptions", "Esmart.Infrastructure.Exceptions\Esmart.Infrastructure.Exceptions.csproj", "{1461BCC4-7B56-420D-A93E-6DF7D93BB364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.RepositoryContract", "Teg.Intellmix.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj", "{D71D3273-D220-449E-A137-A87EB985C55D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.RepositoryContract", "Esmart.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj", "{D71D3273-D220-449E-A137-A87EB985C55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Repository", "Teg.Intellmix.Infrastructure.Repository\Esmart.Infrastructure.Repository.csproj", "{C88BC116-14A9-4038-9EB5-732901CD0BA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Repository", "Esmart.Infrastructure.Repository\Esmart.Infrastructure.Repository.csproj", "{C88BC116-14A9-4038-9EB5-732901CD0BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Resources", "Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj", "{35428DF1-26FF-4550-AF3A-487908C3D619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Resources", "Esmart.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj", "{35428DF1-26FF-4550-AF3A-487908C3D619}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Membership", "Teg.Intellmix.Infrastructure.Membership\Esmart.Infrastructure.Membership.csproj", "{3036CEA2-5B8B-4864-9BE5-93EBBA761FBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Membership", "Esmart.Infrastructure.Membership\Esmart.Infrastructure.Membership.csproj", "{3036CEA2-5B8B-4864-9BE5-93EBBA761FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Data", "Teg.Intellmix.Infrastructure.Data\Esmart.Infrastructure.Data.csproj", "{56DDCDDC-9E24-45BC-831B-DB702B758136}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Data", "Esmart.Infrastructure.Data\Esmart.Infrastructure.Data.csproj", "{56DDCDDC-9E24-45BC-831B-DB702B758136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.UOW", "Teg.Intellmix.Infrastructure.UOW\Esmart.Infrastructure.UOW.csproj", "{7FC486D1-E297-40FE-98F3-D172B49C27EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.UOW", "Esmart.Infrastructure.UOW\Esmart.Infrastructure.UOW.csproj", "{7FC486D1-E297-40FE-98F3-D172B49C27EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Common", "Teg.Intellmix.Infrastructure.Common\Esmart.Infrastructure.Common.csproj", "{2E1D0DF5-2B83-44A1-AEA2-4CE4C8DEB9A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Common", "Esmart.Infrastructure.Common\Esmart.Infrastructure.Common.csproj", "{2E1D0DF5-2B83-44A1-AEA2-4CE4C8DEB9A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.UOWContract", "Teg.Intellmix.Infrastructure.UOWContract\Esmart.Infrastructure.UOWContract.csproj", "{4F239029-297D-48A2-BB21-D24A30B72442}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.UOWContract", "Esmart.Infrastructure.UOWContract\Esmart.Infrastructure.UOWContract.csproj", "{4F239029-297D-48A2-BB21-D24A30B72442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.Models", "Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj", "{A271B361-F674-4394-AE09-AD9A5B5E7388}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Application.Models", "Esmart.Application.Models\Esmart.Application.Models.csproj", "{A271B361-F674-4394-AE09-AD9A5B5E7388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.Models", "Teg.Intellmix.Domain.Models\Esmart.Domain.Models.csproj", "{2E86B444-6492-4643-9B5C-013166D55DF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Domain.Models", "Esmart.Domain.Models\Esmart.Domain.Models.csproj", "{2E86B444-6492-4643-9B5C-013166D55DF0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esmart.Infrastructure.Models", "Teg.Intellmix.Infrastructure.Models\Esmart.Infrastructure.Models.csproj", "{55D8B3BC-4304-43F4-8ECB-2AE55ED76DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esmart.Infrastructure.Models", "Esmart.Infrastructure.Models\Esmart.Infrastructure.Models.csproj", "{55D8B3BC-4304-43F4-8ECB-2AE55ED76DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.EmailUtility", "Teg.Intellmix.Infrastructure.EmailUtility\Esmart.Infrastructure.EmailUtility.csproj", "{01745039-80BF-4D61-90F9-5CC2B62F208B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.EmailUtility", "Esmart.Infrastructure.EmailUtility\Esmart.Infrastructure.EmailUtility.csproj", "{01745039-80BF-4D61-90F9-5CC2B62F208B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Utilities", "Teg.Intellmix.Infrastructure.Utilities\Esmart.Infrastructure.Utilities.csproj", "{B7D390AD-95BE-4EB1-ABCB-03633197E5A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esmart.Infrastructure.Utilities", "Esmart.Infrastructure.Utilities\Esmart.Infrastructure.Utilities.csproj", "{B7D390AD-95BE-4EB1-ABCB-03633197E5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
