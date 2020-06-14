@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b06ae43d8f74aada5ae20dcf1d0a87e" Name="Diagram1" ZoomLevel="48">
+        <EntityTypeShape EntityType="EsmartModel.Account_Transactions" Width="1.5" PointX="18" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Account" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.AspNetRole" Width="1.5" PointX="11.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.AspNetUserClaim" Width="1.5" PointX="16.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.AspNetUserLogin" Width="1.5" PointX="16.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.AspNetUser" Width="1.5" PointX="14" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Asset" Width="1.5" PointX="13" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Bank_Branch_Master" Width="1.5" PointX="24" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Bank_Master" Width="1.5" PointX="21.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Delivery_Order_Note" Width="1.5" PointX="19" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Department" Width="1.5" PointX="10.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Employee" Width="1.5" PointX="11.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Enterprise" Width="1.5" PointX="3.75" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Goods_Receipt_Note" Width="1.5" PointX="23" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.GradeMaster" Width="1.5" PointX="17.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.JobCatalouge" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Logindb" Width="1.5" PointX="13.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_ApprovalLevel" Width="1.5" PointX="13.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_CityMaster" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_Countries" Width="1.5" PointX="25.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_Districts" Width="1.5" PointX="25.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_EsmartServices" Width="1.5" PointX="26.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.m_StateMaster" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.PagePermission" Width="1.5" PointX="14" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Invoice" Width="1.5" PointX="23" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Order" Width="1.5" PointX="20.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Quotation" Width="1.5" PointX="24" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Requisition" Width="1.5" PointX="21.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Invoice" Width="1.5" PointX="19" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Order" Width="1.5" PointX="16.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Quotation" Width="1.5" PointX="24" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Requisition" Width="1.5" PointX="21.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.StepMaster" Width="1.5" PointX="26.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Suppler_Requisition" Width="1.5" PointX="26.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.sysdiagram" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Account_Transactions" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_AccountsSegments" Width="1.5" PointX="0.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Assets" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_BankMaster" Width="1.5" PointX="27.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_branches" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_ChartOfAccount" Width="1.5" PointX="6" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Courses" Width="1.5" PointX="27.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Customers" Width="1.5" PointX="13.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Employees" Width="1.5" PointX="9" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Employers" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_ETUserPermissions" Width="1.5" PointX="15.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Floors" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_GroupServiceMapping" Width="1.5" PointX="7.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_HintQuestions" Width="1.5" PointX="28.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_InvoiceDetails" Width="1.5" PointX="28.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Item_Category" Width="1.5" PointX="17.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Item_Group" Width="1.5" PointX="28.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_JobCatalouge" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_JobCategory" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_JobClass" Width="1.5" PointX="5.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_JobEducation" Width="1.5" PointX="28.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_JobGroup" Width="1.5" PointX="5.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Logins" Width="1.5" PointX="28.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_LoginTrack" Width="1.5" PointX="29.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_MaterialRequest" Width="1.5" PointX="3" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_MaterialRequest_Transactions" Width="1.5" PointX="5.25" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_OrganizationUnits" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_POrderDetails" Width="1.5" PointX="29.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_POrderTransaction" Width="1.5" PointX="30.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PQShippingDetails" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PQuotationTransaction" Width="1.5" PointX="30.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PrimarySkills" Width="1.5" PointX="30.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Projects" Width="1.5" PointX="3" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PurchaseQuotation" Width="1.5" PointX="30.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PurchaseReq_Transactions" Width="1.5" PointX="31.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_PurchaseReqisition" Width="1.5" PointX="9.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Qualification" Width="1.5" PointX="31.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Racks" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Rows" Width="1.5" PointX="3" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Specialization" Width="1.5" PointX="17.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Stock_Items" Width="1.5" PointX="32.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Stock_Items_Transactions" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Suppliers" Width="1.5" PointX="32.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_UnitOfMeasure" Width="1.5" PointX="3" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_UserGroups" Width="1.5" PointX="19.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Vouchers" Width="1.5" PointX="21.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_Warehouse" Width="1.5" PointX="23.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Voucher" Width="1.5" PointX="15.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Warehouse" Width="1.5" PointX="32.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.WarehouseFloor" Width="1.5" PointX="25.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.WarehouseRack" Width="1.5" PointX="27.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.WarehouseRow" Width="1.5" PointX="32.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.xxEnterpris" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Allocation" Width="1.5" PointX="18" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.GridViewDynamicData" Width="1.5" PointX="5.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Item_Category" Width="1.5" PointX="34.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Item_Group" Width="1.5" PointX="15.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.JobCategory" Width="1.5" PointX="34.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.JobClass" Width="1.5" PointX="34.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Invoice_Items" Width="1.5" PointX="34.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Order_Items" Width="1.5" PointX="34.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Quotation_Items" Width="1.5" PointX="29.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Purchase_Requisition_Items" Width="1.5" PointX="34.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Requisition_Item" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.Sales_Requisition_Items" Width="1.5" PointX="36.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EsmartModel.tbl_ErrorTrack" Width="1.5" PointX="36.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="EsmartModel.FK__Account_T__Vouch__68336F3E" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_dbo_PagePermissions_dbo_AspNetRoles_Role_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK__Assets__Departme__5A4F643B" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_Assets_Assets" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK__Bank_Bran__BankC__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_SaleOrdrid" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_ChartOfAccount_Enterprise" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_Purchaseorderid" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_Purchase_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_Requisitionid" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_orderid" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.fk_Requisition_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Account_Transactions_tbl_Account_Transactions" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_MaterialRequest_tbl_AccountsSegments" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Assets_tbl_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Assets_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Assets_tbl_OrganizationUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_ChartOfAccount_tbl_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Employees_tbl_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_OrganizationUnits_tbl_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_ChartOfAccount_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Employees_tbl_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Employees_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Employers_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_OrganizationUnits_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_Employers" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_Floors" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_JobCatalouge_tbl_JobCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_JobCatalouge_tbl_JobClass" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_JobCatalouge_tbl_JobGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_MaterialRequest_Transactions_tbl_MaterialRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_MaterialRequest_Transactions_tbl_UnitOfMeasure" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_OrganizationUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_Racks" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_Rows" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK_tbl_Stock_Items_Transactions_tbl_UnitOfMeasure" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.FK__Allocatio__Vouch__69279377" ManuallyRouted="false" />
+        <AssociationConnector Association="EsmartModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

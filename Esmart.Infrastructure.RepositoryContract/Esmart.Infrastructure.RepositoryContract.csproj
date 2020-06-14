@@ -44,25 +44,25 @@
   <ItemGroup>
     <Compile Include="IEntity.cs" />
     <Compile Include="Interfaces\IAspNetRoleRepository.cs" />
-    <Compile Include="Interfaces\IAspNetUserRolesRepository.cs" />
     <Compile Include="Interfaces\IAspNetUsersRepository.cs" />
+    <Compile Include="Interfaces\IEnterPriseRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj">
+    <ProjectReference Include="..\Esmart.Application.Models\Esmart.Application.Models.csproj">
       <Project>{A271B361-F674-4394-AE09-AD9A5B5E7388}</Project>
       <Name>Esmart.Application.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Domain.Models\Esmart.Domain.Models.csproj">
+    <ProjectReference Include="..\Esmart.Domain.Models\Esmart.Domain.Models.csproj">
       <Project>{2E86B444-6492-4643-9B5C-013166D55DF0}</Project>
       <Name>Esmart.Domain.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
       <Project>{56ddcddc-9e24-45bc-831b-db702b758136}</Project>
       <Name>Esmart.Infrastructure.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
       <Project>{55D8B3BC-4304-43F4-8ECB-2AE55ED76DEA}</Project>
       <Name>Esmart.Infrastructure.Models</Name>
     </ProjectReference>

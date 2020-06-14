@@ -99,7 +99,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
       <Project>{35428DF1-26FF-4550-AF3A-487908C3D619}</Project>
       <Name>Esmart.Infrastructure.Resources</Name>
     </ProjectReference>

@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
       <Project>{D71D3273-D220-449E-A137-A87EB985C55D}</Project>
       <Name>Esmart.Infrastructure.RepositoryContract</Name>
     </ProjectReference>

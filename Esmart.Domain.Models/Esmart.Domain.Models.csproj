@@ -99,11 +99,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj">
+    <ProjectReference Include="..\Esmart.Application.Models\Esmart.Application.Models.csproj">
       <Project>{A271B361-F674-4394-AE09-AD9A5B5E7388}</Project>
       <Name>Esmart.Application.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
       <Project>{35428DF1-26FF-4550-AF3A-487908C3D619}</Project>
       <Name>Esmart.Infrastructure.Resources</Name>
     </ProjectReference>

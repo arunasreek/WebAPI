@@ -48,19 +48,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
       <Project>{56DDCDDC-9E24-45BC-831B-DB702B758136}</Project>
       <Name>Esmart.Infrastructure.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
       <Project>{d71d3273-d220-449e-a137-a87eb985c55d}</Project>
       <Name>Esmart.Infrastructure.RepositoryContract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Repository\Esmart.Infrastructure.Repository.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Repository\Esmart.Infrastructure.Repository.csproj">
       <Project>{C88BC116-14A9-4038-9EB5-732901CD0BA0}</Project>
       <Name>Esmart.Infrastructure.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.UOWContract\Esmart.Infrastructure.UOWContract.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.UOWContract\Esmart.Infrastructure.UOWContract.csproj">
       <Project>{4F239029-297D-48A2-BB21-D24A30B72442}</Project>
       <Name>Esmart.Infrastructure.UOWContract</Name>
     </ProjectReference>

@@ -13,7 +13,7 @@ namespace Esmart.Infrastructure.Repository.Classes
 {
     public class AspNetRoleRepository : Repository<AspNetRole>, IAspNetRoleRepository
     {
-        public AspNetRoleRepository(esmartEntities context) : base(context)
+        public AspNetRoleRepository(EsmartEntitiess context) : base(context)
         {
         }
 
@@ -37,9 +37,9 @@ namespace Esmart.Infrastructure.Repository.Classes
             return await myTask;
         }
 
-        public esmartEntities IntellmixContext
+        public EsmartEntitiess IntellmixContext
         {
-            get { return Context as esmartEntities; }
+            get { return Context as EsmartEntitiess; }
         }
     }
 }

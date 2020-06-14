@@ -11,13 +11,13 @@ namespace Esmart.Infrastructure.Repository.Classes
 {
     public class AspNetUsersRepository : Repository<AspNetUser>, IAspNetUsersRepository
     {
-        public AspNetUsersRepository(esmartEntities context) : base(context)
+        public AspNetUsersRepository(EsmartEntitiess context) : base(context)
         {
         }
 
-        public esmartEntities IntellmixContext
+        public EsmartEntitiess IntellmixContext
         {
-            get { return Context as esmartEntities; }
+            get { return Context as EsmartEntitiess; }
         }
     }
 }

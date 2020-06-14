@@ -57,15 +57,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
       <Project>{56DDCDDC-9E24-45BC-831B-DB702B758136}</Project>
       <Name>Esmart.Infrastructure.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
       <Project>{55D8B3BC-4304-43F4-8ECB-2AE55ED76DEA}</Project>
       <Name>Esmart.Infrastructure.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
       <Project>{D71D3273-D220-449E-A137-A87EB985C55D}</Project>
       <Name>Esmart.Infrastructure.RepositoryContract</Name>
     </ProjectReference>

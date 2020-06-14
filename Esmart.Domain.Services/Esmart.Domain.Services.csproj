@@ -58,35 +58,35 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj">
+    <ProjectReference Include="..\Esmart.Application.Models\Esmart.Application.Models.csproj">
       <Project>{A271B361-F674-4394-AE09-AD9A5B5E7388}</Project>
       <Name>Esmart.Application.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Domain.Models\Esmart.Domain.Models.csproj">
+    <ProjectReference Include="..\Esmart.Domain.Models\Esmart.Domain.Models.csproj">
       <Project>{2E86B444-6492-4643-9B5C-013166D55DF0}</Project>
       <Name>Esmart.Domain.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Domain.ServiceContract\Esmart.Domain.ServiceContract.csproj">
+    <ProjectReference Include="..\Esmart.Domain.ServiceContract\Esmart.Domain.ServiceContract.csproj">
       <Project>{8cc573f2-1951-4ac7-a94a-6aac929a7f05}</Project>
       <Name>Esmart.Domain.ServiceContract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Common\Esmart.Infrastructure.Common.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Common\Esmart.Infrastructure.Common.csproj">
       <Project>{2E1D0DF5-2B83-44A1-AEA2-4CE4C8DEB9A1}</Project>
       <Name>Esmart.Infrastructure.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Data\Esmart.Infrastructure.Data.csproj">
       <Project>{56DDCDDC-9E24-45BC-831B-DB702B758136}</Project>
       <Name>Esmart.Infrastructure.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Models\Esmart.Infrastructure.Models.csproj">
       <Project>{55D8B3BC-4304-43F4-8ECB-2AE55ED76DEA}</Project>
       <Name>Esmart.Infrastructure.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.RepositoryContract\Esmart.Infrastructure.RepositoryContract.csproj">
       <Project>{D71D3273-D220-449E-A137-A87EB985C55D}</Project>
       <Name>Esmart.Infrastructure.RepositoryContract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
       <Project>{35428DF1-26FF-4550-AF3A-487908C3D619}</Project>
       <Name>Esmart.Infrastructure.Resources</Name>
     </ProjectReference>

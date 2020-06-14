@@ -51,48 +51,345 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Account_Transactions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Allocation.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="AspNetRole.cs">
-      <DependentUpon>Esmart.tt</DependentUpon>
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUser.cs">
-      <DependentUpon>Esmart.tt</DependentUpon>
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUserClaim.cs">
-      <DependentUpon>Esmart.tt</DependentUpon>
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
     <Compile Include="AspNetUserLogin.cs">
-      <DependentUpon>Esmart.tt</DependentUpon>
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="AspNetUserRole.cs">
-      <DependentUpon>Esmart.tt</DependentUpon>
+    <Compile Include="Asset.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Esmart.Context.cs">
+    <Compile Include="Bank_Branch_Master.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bank_Master.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery_Order_Note.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Enterprise.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EsmartContext.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Esmart.Context.tt</DependentUpon>
+      <DependentUpon>EsmartContext.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Esmart.cs">
+    <Compile Include="EsmartContext.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Esmart.tt</DependentUpon>
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Esmart.Designer.cs">
+    <Compile Include="EsmartContext.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Esmart.edmx</DependentUpon>
+      <DependentUpon>EsmartContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Goods_Receipt_Note.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GradeMaster.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewDynamicData.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Category.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item_Group.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobCatalouge.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobCategory.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JobClass.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Logindb.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_ApprovalLevel.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_CityMaster.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_Countries.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_Districts.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_EsmartServices.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="m_StateMaster.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PagePermission.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase_Invoice.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Invoice_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Order.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Order_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Quotation.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Quotation_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Requisition.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase_Requisition_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Invoice.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Order.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Quotation.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Requisition.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Requisition_Item.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sales_Requisition_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StepMaster.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Suppler_Requisition.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_AccountsSegments.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Account_Transactions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Assets.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_BankMaster.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_branches.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ChartOfAccount.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Courses.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Customers.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Employees.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Employers.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ErrorTrack.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ETUserPermissions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Floors.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_GroupServiceMapping.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_HintQuestions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_InvoiceDetails.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Item_Category.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Item_Group.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_JobCatalouge.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_JobCategory.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_JobClass.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_JobEducation.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_JobGroup.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Logins.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_LoginTrack.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_MaterialRequest.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_MaterialRequest_Transactions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_OrganizationUnits.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_POrderDetails.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_POrderTransaction.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PQShippingDetails.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PQuotationTransaction.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PrimarySkills.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Projects.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PurchaseQuotation.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PurchaseReqisition.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_PurchaseReq_Transactions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Qualification.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Racks.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Rows.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Specialization.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Stock_Items.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Stock_Items_Transactions.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Suppliers.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UnitOfMeasure.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UserGroups.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Vouchers.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Warehouse.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="usp_ProcessUserDetails_Result.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Voucher.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseFloor.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseRack.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseRow.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="xxEnterpris.cs">
+      <DependentUpon>EsmartContext.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config">
       <SubType>Designer</SubType>
     </None>
-    <EntityDeploy Include="Esmart.edmx">
+    <EntityDeploy Include="EsmartContext.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Esmart.Designer.cs</LastGenOutput>
+      <LastGenOutput>EsmartContext.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Esmart.edmx.diagram">
-      <DependentUpon>Esmart.edmx</DependentUpon>
+    <None Include="EsmartContext.edmx.diagram">
+      <DependentUpon>EsmartContext.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -100,15 +397,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Esmart.Context.tt">
+    <Content Include="EsmartContext.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Esmart.edmx</DependentUpon>
-      <LastGenOutput>Esmart.Context.cs</LastGenOutput>
+      <DependentUpon>EsmartContext.edmx</DependentUpon>
+      <LastGenOutput>EsmartContext.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Esmart.tt">
+    <Content Include="EsmartContext.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Esmart.edmx</DependentUpon>
-      <LastGenOutput>Esmart.cs</LastGenOutput>
+      <DependentUpon>EsmartContext.edmx</DependentUpon>
+      <LastGenOutput>EsmartContext.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

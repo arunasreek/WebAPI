@@ -51,7 +51,7 @@ namespace Esmart.Application.WebApi.IOC
             #endregion
 
 
-            builder.RegisterType<esmartEntities>().InstancePerRequest();
+            builder.RegisterType<EsmartEntitiess>().InstancePerRequest();
             builder.RegisterAssemblyTypes(Assembly.Load("Esmart.Application.Services"))
                 .Where(t => t.Name.EndsWith("ApplicationService"))
                 .AsImplementedInterfaces()

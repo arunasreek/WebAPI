@@ -18,7 +18,7 @@ namespace Esmart.Application.WebApi.Providers
     public class ApplicationOAuthProvider : OAuthAuthorizationServerProvider
     {
         private readonly string _publicClientId;
-		private readonly AspNetUserRolesRepository _aspNetUserRolesRepository;
+		
       
 
 
@@ -31,7 +31,7 @@ namespace Esmart.Application.WebApi.Providers
 
             _publicClientId = publicClientId;
 			
-			_aspNetUserRolesRepository = new AspNetUserRolesRepository(new Infrastructure.Data.esmartEntities());
+			
            
 
         }
@@ -70,12 +70,12 @@ namespace Esmart.Application.WebApi.Providers
 
 			// add all roles to the claim
 
-			foreach (string role in await _aspNetUserRolesRepository.GetUsersRoles(user.Id, true))
-			{
-				claims.Add(new Claim(ClaimTypes.Role, role));
-				roles.Append("," + role);
+			//foreach (string role in await _aspNetUserRolesRepository.GetUsersRoles(user.Id, true))
+			//{
+			//	claims.Add(new Claim(ClaimTypes.Role, role));
+			//	roles.Append("," + role);
 
-			}
+			//}
 
 			//add new properties here. 
 			var properties = new AuthenticationProperties(new Dictionary<string, string>

@@ -50,7 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Resources\Esmart.Infrastructure.Resources.csproj">
       <Project>{35428df1-26ff-4550-af3a-487908c3d619}</Project>
       <Name>Esmart.Infrastructure.Resources</Name>
     </ProjectReference>

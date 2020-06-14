@@ -47,14 +47,15 @@
   <ItemGroup>
     <Compile Include="Contracts\IAccountApplicationService.cs" />
     <Compile Include="Contracts\IAspNetRolesApplicationService.cs" />
+    <Compile Include="Contracts\IEnterPriseApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Application.Models\Esmart.Application.Models.csproj">
+    <ProjectReference Include="..\Esmart.Application.Models\Esmart.Application.Models.csproj">
       <Project>{A271B361-F674-4394-AE09-AD9A5B5E7388}</Project>
       <Name>Esmart.Application.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.Membership\Esmart.Infrastructure.Membership.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.Membership\Esmart.Infrastructure.Membership.csproj">
       <Project>{3036CEA2-5B8B-4864-9BE5-93EBBA761FBB}</Project>
       <Name>Esmart.Infrastructure.Membership</Name>
     </ProjectReference>

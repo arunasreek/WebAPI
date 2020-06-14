@@ -79,7 +79,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Teg.Intellmix.Infrastructure.UOW\Esmart.Infrastructure.UOW.csproj">
+    <ProjectReference Include="..\Esmart.Infrastructure.UOW\Esmart.Infrastructure.UOW.csproj">
       <Project>{7fc486d1-e297-40fe-98f3-d172b49c27eb}</Project>
       <Name>Esmart.Infrastructure.UOW</Name>
     </ProjectReference>

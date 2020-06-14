@@ -18,6 +18,7 @@ namespace Esmart.Infrastructure.Data
         public string UserId { get; set; }
         public string ClaimType { get; set; }
         public string ClaimValue { get; set; }
-        public bool IsActive { get; set; }
+    
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }
